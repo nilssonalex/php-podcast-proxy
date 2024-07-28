@@ -58,7 +58,7 @@ echo '          <itunes:category text="Tech News" />' . PHP_EOL;
 echo "      </itunes:category>" . PHP_EOL;
 echo '      <itunes:category text="Technology" />' . PHP_EOL;
 echo "      <itunes:explicit>false</itunes:explicit>" . PHP_EOL;
-echo '      <itunes:image href="'.$protocol . $selfurl . '/data/'. $feedName . '/artwork.png" />' . PHP_EOL;
+echo '      <itunes:image href="'.$protocol . $host . '/data/'. $feedName . '/artwork.png" />' . PHP_EOL;
 echo "      <podcast:locked>yes</podcast:locked>" . PHP_EOL;
 echo "      <itunes:author>" . $env["ITUNES_AUTHOR"] ."</itunes:author>" . PHP_EOL;
 echo "      <copyright>&#169; original author</copyright>" . PHP_EOL;
