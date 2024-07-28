@@ -13,6 +13,12 @@ ini_set("display_errors", "1");
 
 header("Content-type: text/xml");
 
+if (!isset($_GET["podcast"])) {
+    echo "no podcast set";
+    die();
+}
+
+
 $feedName = $_GET["podcast"];
 $feedDesc = "Proxy podcast for " . $feedName;
 
