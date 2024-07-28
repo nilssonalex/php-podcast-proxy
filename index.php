@@ -52,7 +52,7 @@ echo '<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dt
 echo "  <channel>" . PHP_EOL;
 echo '      <atom:link href="' . $protocol . $host . '" rel="self" type="application/rss+xml" />' .
   PHP_EOL;
-echo "      <title>".$feedName."</title>" . PHP_EOL;
+echo "      <title>Proxy: ".$feedName."</title>" . PHP_EOL;
 echo "      <description>".$feedDesc."</description>" .
   PHP_EOL;
 echo "      <link>" . $env["URL"] . "</link>" . PHP_EOL;
