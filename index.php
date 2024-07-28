@@ -52,7 +52,7 @@ echo PHP_EOL;
 
 $items = [];
 
-$file = fopen("data/".$_GET["podcast"].".csv", "r");
+$file = fopen("data/".$_GET["podcast"]."/". $_GET["podcast"] . ".csv", "r");
 
 // id   filename    timestamp   duration    title   description
 // 0    1           2           3           4       5
